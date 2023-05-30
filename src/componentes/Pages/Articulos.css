@@ -43,10 +43,11 @@
 }
 
 .articulo__boton {
-    background: #da2b1f;
+    /* background: #da2b1f; */
+    background: #ff1100;
     border: none;
     border-radius: 5px;
-    color: #fdfdfd;
+    color: #ffffff;
     padding: .3rem;
     text-decoration: none;
     transition: all .1s ease-in-out;
