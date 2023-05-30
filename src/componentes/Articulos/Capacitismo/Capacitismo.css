@@ -1,0 +1,491 @@
+* {
+    background: rgb(240, 242, 198);
+}
+
+.principal {
+    background-color: rgb(240, 242, 198);
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 40%;
+    margin: 0%;
+}
+
+.container {
+    margin: 3%;
+
+
+}
+
+.title-page {
+    color: #da2b1f;
+    font-family: pacifico, cursive;
+    font-weight: 400;
+    font-size: 3.1875rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.title-internacionalizacion{
+    color: #da2b1f;
+    font-family: pacifico, cursive;
+    font-weight: 400;
+    font-size: 3.1875rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    
+}
+
+.parrafo {
+    color: #000000;
+    font-size: 1.75rem;
+    font-weight: 100;
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.resaltar {
+    font-weight: bold;
+}
+
+.enfoque__imagen {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.parrafo__discapacidad{
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: justify;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+/*-AQUÍ INICIA EL MODO RESPONSIVO 1550--*/
+
+@media (max-width: 1550px) {
+    .container {
+        margin: -3%;
+        margin-bottom: 5%;
+    }
+
+    .title-page {
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-weight: 400;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title-internacionalizacion{
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-weight: 400;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .parrafo__discapacidad{
+        color: #000000;
+        font-size: 1.75rem;
+        font-weight: 100;
+        text-align: justify;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .parrafo {
+        color: #000000;
+        font-size: 1.75rem;
+        font-weight: 100;
+        text-align: justify;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* INICIA 1460----------------- */
+
+@media (max-width: 1460px) {
+    .container {
+        margin: -3%;
+        margin-bottom: 5%;
+        MARGIN-TOP: -5%;
+    }
+
+    .title-page {
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-weight: 400;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;        
+    }
+    .title-internacionalizacion{
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-weight: 400;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;        
+    }
+
+    .enfoque__imagen{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
+
+/* TERMINA 1460PX */
+
+/* INICIA 1370----------------- */
+@media (max-width: 1370px) {
+    .container {
+        margin: -3%;
+        margin-bottom: 5%;
+        MARGIN-TOP: -10%;
+    }
+
+    .title-page {
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-weight: 400;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .title-internacionalizacion{
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-weight: 400;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10%;
+    }
+
+    .enfoque__imagen{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
+
+/* TERMINA 1370PX */
+/* ------------------------ */
+/* INICIA 1050PX */
+@media (max-width: 1050px) {
+    .title-page {
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-size: 2.1rem;
+        margin-bottom: -1rem;
+        text-align: center;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    .title-internacionalizacion{
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-size: 2.1rem;
+        margin-bottom: -1rem;
+        text-align: center;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 8%;
+    }
+
+    .enfoque__imagen{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
+
+/* TERMINA 1050PX */
+/* ------------------------ */
+/* INICIA 943PX */
+
+
+/* INICIA 1000PX */
+@media (max-width: 1000px) {
+    .title-page {
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-size: 2.1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .title-internacionalizacion{
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-size: 2.1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 8%;
+    }
+    .enfoque__imagen{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
+
+/* TERMINA 1000PX */
+/* ------------------------- */
+
+/* INICIA 943PX */
+@media (max-width: 943px) {
+    .title-page {
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-size: 1.9rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    .title-internacionalizacion{
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-size: 1.9rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 8%;
+    }
+    .enfoque__imagen{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
+
+/* TERMINA 943 */
+
+/* INICIA 853PX */
+@media (max-width: 853px) {
+    .title-page {
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+    .title-internacionalizacion{
+        color: #da2b1f;
+        font-family: pacifico, cursive;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+    .enfoque__imagen{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
+
+/* TERMINA 853PX */
+
+/* INICIA 769PX */
+@media (max-width:769px){
+    .title-page {
+        color: #da2b1f;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+    .title-internacionalizacion{
+        color: #da2b1f;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        margin-top: 11%;
+    }
+    .parrafo__discapacidad{
+        color: #000000;
+        font-size: 1.6rem;
+        font-weight: 100;
+        text-align: justify;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .parrafo {
+        color: #000000;
+        font-size: 1.6rem;
+        font-weight: 100;
+        text-align: justify;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .enfoque__imagen{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
+
+/* TERMINA 7769PX */
+
+/* INICIA 560PX */
+@media (max-width:560px) {
+    .title-page {
+        color: #da2b1f;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+    .title-internacionalizacion{
+        color: #da2b1f;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.7rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        margin-top: 12%;
+    }
+    .parrafo__discapacidad{
+        color: #000000;
+        font-size: 1.1rem;
+        font-weight: 100;
+        text-align: justify;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .parrafo {
+        color: #000000;
+        font-size: 1.1rem;
+        font-weight: 100;
+        text-align: justify;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+    .enfoque__imagen{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }  
+}
+/* TERMINA 560PX */
+
+/* INICIA 410PX */
+@media (max-width: 410px) {
+    .title-page {
+        color: #da2b1f;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+    .title-internacionalizacion{
+        color: #da2b1f;
+        font-family: 'Lato', sans-serif;
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        margin-top: 12%;
+    }
+    .parrafo__discapacidad{
+        color: #000000;
+        font-size: 1.1rem;
+        font-weight: 100;
+        text-align: justify;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .parrafo__discapacidad{
+        color: #000000;
+        font-size: 1.1rem;
+        font-weight: 100;
+        text-align: justify;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .parrafo {
+        color: #000000;
+        font-size: 1.1rem;
+        font-weight: 100;
+        text-align: justify;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .enfoque__imagen{
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+}
+/* TERMINA 410PX */

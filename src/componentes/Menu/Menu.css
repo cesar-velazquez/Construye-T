@@ -1,0 +1,700 @@
+.centrar__img {
+    text-align: center;
+}
+
+.barra {
+    padding-top: 25rem;
+    border-bottom: 1px solid #0c0f0f;
+    position: absolute;
+}
+
+.barra__navegacion {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    transition: 0.7s;
+    padding: 0px 0px;
+    align-items: center;
+    background-color: rgb(179, 213, 243);
+}
+
+.urderlist {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(179, 213, 243);
+}
+
+.barra__enlace {
+    font-size: 1.1rem;
+    display: contents;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+
+}
+
+.enlace {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 15px;
+    color: #dd0404;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+    background-color: rgb(179, 213, 243);
+}
+
+
+/* PARTE DEL CODIGO CSS DEL HEADER */
+.header1 {
+    background-color: #f30606;
+    position: static;
+}
+
+.header {
+    background-color: #000000;
+    text-align: center;
+}
+
+.header img {
+    width: 100%;
+    height: 500px;
+}
+
+.banner__titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+    top: -30%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    margin: .3%;
+}
+
+
+.head__logo {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13%;
+}
+
+
+header.section1 {
+    margin: 0%;
+    padding: 0%;
+    position: sticky;
+    margin-top: 0%;
+    border-bottom: 1.5px solid #000000;
+}
+
+
+/* AQUI INCIA EL FOOTER DE LA PAG */
+/* .div__footer{
+position: absolute;
+margin-top: 87%;
+width: 100%;
+margin-bottom: 5%;
+} */
+
+.rodapie__footer {
+    position: absolute;
+    margin-top: 87%;
+    width: 100%;
+    /* padding-bottom: 5%; */
+    padding: 2% 3%;
+    background-color: #8a9494;
+}
+
+.rodapie {
+    display: block;
+    width: 7%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/*-AQUÍ INICIA EL MODO RESPONSIVO 1550 */
+@media (max-width:1550px) {
+
+    .urderlist {
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        background-color: rgb(160, 245, 210);
+        padding-left: 0%;
+
+    }
+
+    .enlace {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 15px;
+        color: #000000;
+        letter-spacing: 2px;
+        font-weight: 600;
+        transition: 0.7s;
+        background-color: rgb(160, 245, 210);
+    }
+
+    .barra__navegacion {
+        background-color: rgb(160, 245, 210);
+        border-bottom: 1.5px solid #5a5a5a;
+        width: 100%;
+    }
+
+
+
+    .banner__titulo {
+        margin-top: 5%;
+        font-size: 2rem;
+        margin-bottom: 1%;
+        margin-left: -4%;
+        flex-direction: column;
+    }
+
+    .head__logo {
+        display: block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 8%;
+        text-align: center;
+    }
+
+    .barra {
+        padding-top: 24rem;
+        border-bottom: 1px solid #0c0f0f;
+        position: absolute;
+    }
+}
+
+/* AQUÍ FINALIZA EL 1550--------------------------------------------- */
+
+/* INICIA 1370PX */
+@media (max-width: 1370px) {
+    .barra {
+        padding-top: 22rem;
+        border-bottom: 1px solid #0c0f0f;
+        position: absolute;
+    }
+}
+
+/* FINALIZA 1370 */
+
+/* INICIA 1235 */
+@media (max-width:1235px) {
+    .barra {
+        padding-top: 20rem;
+        border-bottom: 1px solid #0c0f0f;
+        position: absolute;
+    }
+    .head__logo {
+        display: block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 11%;
+        text-align: center;
+    }
+}
+
+/* TERMINA 1235 */
+
+/* INICIA 1050PX */
+@media (max-width: 1050px) {
+    .barra {
+        padding-top: 18rem;
+        border-bottom: 1px solid #0c0f0f;
+        position: absolute;
+    }
+    .head__logo {
+        display: block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 11%;
+        text-align: center;
+    }
+}
+
+/* TERMINA 1050 */
+
+/* INICIA 1000PX */
+@media (max-width: 1000px) {
+    .head__logo {
+        display: block;
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 11%;
+        text-align: center;
+    }
+    .barra {
+        padding-top: 17rem;
+        border-bottom: 1px solid #0c0f0f;
+        position: absolute;
+    }
+}
+
+/* FINALIZA 900 */
+
+/* INICIA 813PX */
+@media (max-width: 813px)
+{
+.head__logo {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+    text-align: center;
+}
+
+.barra {
+    padding-top: 14rem;
+    border-bottom: 1px solid #0c0f0f;
+    position: absolute;
+}
+}
+/* FINALIZA 813PX */
+
+/* INICIA 769PX */
+@media(max-width: 769px) {
+    .urderlist {
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        background-color: rgb(240, 240, 240);
+        flex-direction: column;
+    }
+
+    .enlace {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0 15px;
+        color: #000000;
+        letter-spacing: 2px;
+        font-weight: 600;
+        transition: 0.7s;
+        background-color: rgb(240, 240, 240);
+    }
+
+    .barra__navegacion {
+        background-color: rgb(240, 240, 240);
+        border-bottom: 1.5px solid #5a5a5a;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .banner__titulo {
+        margin-top: 5%;
+        font-size: 2rem;
+        margin-bottom: 1%;
+        margin-left: -4%;
+        flex-direction: column;
+    }
+
+    .head__logo {
+        margin-top: 17%;
+        width: 400px;
+        height: 200px;
+        margin-left: 20%;
+    }
+
+    .barra {
+        padding-top: 13rem;
+        border-bottom: 0px solid #0c0f0f;
+        position: absolute;
+    }
+}
+
+/* AQUÍ TERMINA 769-------------------------------------------------------------------------- */
+
+/* AQUÍ INICIA 720 PX---------------------------------------------------- */
+@media (max-width: 720px) {
+    .enlace {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        margin: 0 15px;
+        color: #fa0b0b;
+        letter-spacing: 2px;
+        font-weight: 600;
+        transition: 0.7s;
+        background-color: rgb(240, 240, 240);
+        border-bottom: 2px solid #9799A6;
+    }
+    .head__logo {
+        margin-top: 19%;
+        width: 50%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* AQUI TERMINA 720 PX-------------------------------------------------------------- */
+
+
+
+/* INCIA 648PX--------------------------------------------------------------- */
+@media (max-width: 648px) {
+    .head__logo {
+        margin-top: 21%;
+        width: 50%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+}
+
+/* TERMINA 648PX---------------------------------------------------------- */
+
+
+
+/* INICIA 585px -------------------------------------- */
+@media(max-width: 585px) {
+    .enlace {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        margin: 0 15px;
+        color: #fa0b0b;
+        letter-spacing: 2px;
+        font-weight: 600;
+        transition: 0.7s;
+        background-color: rgb(240, 240, 240);
+        border-bottom: 2px solid #9799A6;
+    }
+
+    .urderlist {
+        position: relative;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        background-color: rgb(240, 240, 240);
+        flex-direction: column;
+    }
+
+    .banner__titulo {
+        margin-top: 5%;
+        font-size: 2rem;
+        margin-bottom: 1%;
+        flex-direction: column;
+
+    }
+
+    .head__logo {
+        margin-top: 23%;
+    }
+
+    .barra__navegacion {
+        background-color: rgb(240, 240, 240);
+        border-bottom: 2px solid #9799A6;
+    }
+}
+
+/* TERMINA 585px -------------------------------------- */
+
+
+
+/* INICIA 545 PX-------------------------------------- */
+@media(max-width:545px) {
+    .head__logo {
+        margin-top: 25%;
+    }
+}
+
+/* TERMINA 545PX------------------------------------ */
+
+/* INICIA 520PX--------------- */
+@media (max-width: 520px) {
+    .head__logo {
+        margin-top: 28%;
+    }
+
+    .banner__titulo {
+        margin-left: 6%;
+    }
+}
+
+/* TERMINA 520PX-------------- */
+
+/* INICIA 460PX----------- */
+@media (max-width: 460px) {
+    .head__logo {
+        margin-top: 33%;
+    }
+
+    .banner__titulo {
+        margin-left: 8%;
+    }
+}
+/* TERMINA 460PX---------- */
+
+/* INICIA 445 PX*/
+@media (max-width: 445px) {
+    .head__logo {
+        margin-top: 40%;
+    }
+
+    .banner__titulo {
+        margin-left: 1%;
+        font-size: 2rem;
+        margin-top: 2%;
+    }
+}
+
+/* TERMINA 441PX*/
+
+
+/* INICIA 410-------------- */
+@media (max-width: 410px) {
+    .head__logo {
+        margin-top: 45%;
+        width: 83%;
+        margin-left: 12%;
+    }
+
+    .banner__titulo {
+        margin-left: 0%;
+        font-size: 2rem;
+        margin-top: 0%;
+    }
+
+    .barra {
+        padding-top: 13rem;
+        border-bottom: 0px solid #0c0f0f;
+        position: absolute;
+    }
+
+}
+
+/* TERMINA 410 -------------*/
+
+/* INICIA 400PX */
+
+@media (max-width:400px)
+{
+.enlace {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    margin: 5px 10px;
+    color: #fa0b0b;
+    letter-spacing: 2px;
+    font-weight: 600;
+    transition: 0.7s;
+    background-color: rgb(240, 240, 240);
+    border-bottom: 2px solid #9799A6;
+}
+.head__logo {
+    margin-top: 50%;
+    width: 83%;
+    margin-left: 12%;
+}
+}
+
+/* TERMINA 400PX */
+
+
+/* INICIA 380PX -------------------------------------- */
+@media(max-width: 380px) {
+    .head__logo {
+        margin-top: 60%;
+        width: 80%;
+
+    }
+
+    .banner__titulo {
+        margin-left: 6%;
+        font-size: 1.8rem;
+        margin-top: 0%;
+    }
+}
+
+/* TERMINA 380PX--------------------------- */
+
+
+/* INICIA 365PX--------------- */
+
+@media (max-width: 365px) {
+    .head__logo {
+        margin-top: 60%;
+        width: 85%;
+        margin-left: 10%;
+    }
+
+    .banner__titulo {
+        margin-left: 0%;
+        font-size: 1.7rem;
+        margin-top: 0%;
+    }
+}
+
+/* TERMINA 365PX----------------- */
+
+/* INICIA 340PX----------- */
+
+@media (max-width: 340PX) {
+    .enlace {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.3rem;
+        margin: 5px 27px;
+        color: #fa0b0b;
+        letter-spacing: 3px;
+        font-weight: 600;
+        transition: 0.7s;
+        background-color: rgb(240, 240, 240);
+        border-bottom: 2px solid #9799A6;
+    }
+
+    .banner__titulo {
+        margin-left: 0%;
+        font-size: 1.9rem;
+        margin-top: 0%;
+        font-family: ui-monospace;
+    }
+
+    .head__logo {
+        margin-top: 73%;
+        width: 95%;
+        margin-left: 4%;
+    }
+
+}
+
+/* TERMINA 340PX------------ */
+
+/* INICIA 310 PX------------- */
+
+@media (max-width: 310px) {
+    .enlace {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        margin: 5px 27px;
+        color: #fa0b0b;
+        letter-spacing: 3px;
+        font-weight: 600;
+        transition: 0.7s;
+        background-color: rgb(240, 240, 240);
+        border-bottom: 2px solid #9799A6;
+    }
+    .head__logo {
+        margin-top: 75%;
+        width: 75%;
+        margin-left: 13%;
+    }
+
+    .banner__titulo {
+        margin-left: 0%;
+        font-size: 2rem;
+        margin-top: 0%;
+        font-family: ui-monospace;
+    }
+}
+
+/* TERMINA 310---------------- */
+
+/* INICIA 290PX----------- */
+
+@media (max-width: 290px) {
+    .enlace {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        margin: 5px 27px;
+        color: #fa0b0b;
+        letter-spacing: 3px;
+        font-weight: 600;
+        transition: 0.7s;
+        background-color: rgb(240, 240, 240);
+        border-bottom: 2px solid #9799A6;
+    }
+    .banner__titulo {
+        margin-left: 1%;
+        font-size: 2rem;
+        margin-top: 0%;
+    }
+
+    .head__logo {
+        margin-top: 80%;
+        width: 91%;
+        margin-left: 6%;
+    }
+}
+
+/* TERMINA 290PX */
+
+/* INICIA 280PX------ */
+
+@media (max-width: 280px) {
+
+    .enlace {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        margin: 5px 27px;
+        color: #fa0b0b;
+        letter-spacing: 3px;
+        font-weight: 600;
+        transition: 0.7s;
+        background-color: rgb(240, 240, 240);
+        border-bottom: 2px solid #9799A6;
+    }
+
+    .head__logo {
+        margin-top: 80%;
+        width: 95%;
+        margin-left: 4%;
+    }
+
+    .banner__titulo {
+        margin-left: 2%;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.3rem;
+        margin-top: 0%;
+    }
+}
+/* TERMINA 280PX */
+
+/* INICIO 256PX */
+
+@media (max-width: 256px)
+{
+    .enlace {
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        margin: 5px 27px;
+        color: #fa0b0b;
+        letter-spacing: 3px;
+        font-weight: 600;
+        transition: 0.7s;
+        background-color: rgb(240, 240, 240);
+        border-bottom: 2px solid #9799A6;
+    }
+    .head__logo {
+        margin-top: 95%;
+        width: 95%;
+        margin-left: 4%;
+    }
+}
+
+/* TERMINA 256PX */

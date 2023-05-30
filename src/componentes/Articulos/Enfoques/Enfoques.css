@@ -1,0 +1,47 @@
+/* *{
+    background: rgb(240, 242, 198);
+}
+
+.principal{
+    background-color: rgb(240, 242, 198);
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 40%;
+    margin: 0%;
+}
+
+ .container{    
+    margin: 1%;
+
+
+ }
+
+ .title-page{    
+    color: #da2b1f;
+    font-family: pacifico, cursive;
+    font-weight: 400;
+    font-size: 3.1875rem;
+    margin-bottom: 1rem;
+    text-align: center;    
+ }
+
+.parrafo{
+    color: #595959;
+    font-size: 1.75rem;
+    font-weight: 100;
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.resaltar{
+    font-weight: bold;
+}
+
+.centrar__img{
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;    
+} */

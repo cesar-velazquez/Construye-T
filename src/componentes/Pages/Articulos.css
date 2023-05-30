@@ -1,0 +1,228 @@
+.articulos {
+    background-color: rgb(240, 242, 198);
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* height: 40%; */
+    margin: 2% -1%;
+}
+
+.articulo {
+    background: #f5f7dd;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    height: 2%;
+    width: 20%;
+}
+
+.articulo__imagen {
+    height: 250px;
+    width: 398.02px;
+    /* margin-top: -380px;     */
+}
+
+.articulo__contenido {
+    padding: 1rem;
+}
+
+.articulo__titulo {
+    /* font-size: 1.4357rem;
+    text-align: center; */
+    font-size: .9rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.articulo__descripcion {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.articulo__boton {
+    background: #da2b1f;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    padding: .3rem;
+    text-decoration: none;
+    transition: all .1s ease-in-out;
+
+}
+
+.articulo__boton:hover {
+    cursor: pointer;
+    background: #832e04;
+}
+
+
+
+
+/*AQUÍ INICIA EL MODO RESPOSIVE 770-----------------------------------------*/
+@media (min-width: 770px) {
+    .articulos {
+        background-color: rgb(240, 242, 198);
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 2% -1%;
+    }
+}
+
+/*AQUÍ INICIA EL MODO RESPOSIVE 769-----------------------------------------*/
+@media(max-width: 769px) {
+    .articulo__titulo {
+        font-size: .9rem;
+        line-height: 1.5;
+        text-align: left;
+        margin-top: .5%;
+    }
+
+    .articulo__contenido {
+        padding: 0.5rem;
+        width: 460px;
+        height: 130px;
+    }
+
+    .articulos {
+        background-color: rgb(240, 242, 198);
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 2% -1%;
+    }
+     
+}
+
+/* AQUÍ TERMINA 769-------------------------------------------------------------- */
+
+
+/* INICIA 720 ----------------------------------------------------*/
+@media(max-width: 720px) {
+    .urderlist {
+        position: relative;
+        display: flex;
+        align-items: start;
+        justify-content: center;
+        background-color: rgb(240, 240, 240);
+        flex-direction: column;
+    }
+
+    .banner__titulo {
+        margin-top: 5%;
+        font-size: 2rem;
+        margin-bottom: 1%;
+        flex-direction: column;
+
+    }
+
+    .head__logo {
+        margin-top: 22%;
+        WIDTH: 335PX;
+        height: 190px;
+    }
+
+    .barra__navegacion {
+        background-color: rgb(240, 240, 240);
+        border-bottom: 2px solid #9799A6;
+    }
+
+    .articulos {
+        margin: 0%;
+        display: block;
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+    }
+
+}
+/* AQUÍ TERMINA RESPOSIVE 720PX----------------------------------------- */
+
+/* INICIA 648PX------------------------------- */
+@media (max-width: 648px) {
+    .articulos {
+        margin: 0%;
+        display: block;
+        width: 56%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+    }    
+}
+
+/* TERMINA 648PX------------------------------- */
+
+/* INICIA 560PX */
+@media (max-width: 560px) {
+    .articulos {
+        margin: 0%;
+        display: block;
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+    }
+}
+
+/* TERMINA 560PX */
+
+
+/* INICIA 545PX-------------------------- */
+@media (max-width: 545px) {
+    .articulos {
+        margin: 0%;
+        display: block;
+        width: 73%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+    }
+
+    .articulos {
+        margin: 0%;
+        display: block;
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+    }
+}
+/* TERMINA 545PX------------------------- */
+
+/* INICIA 460PX -------------*/
+@media (max-width: 460px) {
+    .articulos {
+        margin: 0%;
+        display: block;
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+    }
+
+    .barra {
+        padding-top: 13rem;
+        border-bottom: 0px solid #0c0f0f;
+        position: absolute;
+    }    
+}
+
+/* TERMINA 460PX--------------- */
+
+/* INICIA 410PX */
+@media (max-width: 410px) {
+    .articulos {
+        margin: 0%;
+        display: block;
+        width: 84%;
+        margin-left: auto;
+        margin-right: auto;
+        display: grid;
+    }
+}
+
+/* TERMINA 410PX */

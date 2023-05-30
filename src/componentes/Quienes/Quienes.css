@@ -1,0 +1,71 @@
+.quienes{    
+    text-align: center;
+}
+
+.quienes__titulo{
+    color: #da2b1f;
+    font-family: pacifico, cursive;
+    font-weight: 400;
+    font-size: 3.1875rem;
+    margin-bottom: 1rem;
+    margin-top: 4%;
+}
+
+.quienes__descripcion{
+    color: #595959;
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+    
+}
+
+.persona{
+    display: flex;
+    flex-direction: column;
+}
+
+.persona__imagen{
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;    
+}
+
+.persona__imagen--martin{
+    background-image: url(/public/img/personas/martin.jpg);
+}
+
+.persona__imagen--yesua{
+    background-image: url(/public/img/personas/yesua.jpg);
+}
+.persona__imagen--janet{
+    background-image: url(/public/img/personas/janet.jpg);
+}
+
+.persona__imagen--fatima{
+    background-image: url(/public/img/personas/fati.jpg);
+}
+
+.persona__imagen--axel{
+    background-image: url(/public/img/personas/axel.jpg);
+}
+
+.parrafo__Quienes{
+    color: #f80a0a;
+    font-size: 1.75rem;
+    font-weight: 100;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 6%;
+    padding-bottom: 1%;
+
+}
