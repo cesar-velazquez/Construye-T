@@ -24,7 +24,7 @@ const TiposdDisc = () => {
                 </article>
 
                 <article className="card">
-                    <h2 className="title-page" >psicosocial</h2>
+                    <h2 className="title-page" >Psicosocial</h2>
                     <p className="parrafo__discapacidad"> Relacionada con las emociones.
                         Algunas van a ver a doctores que se llaman “psiquiatras”. O a “psicólogos” con los cuales hablan de cómo se sienten.</p>
                         <div className="centrar__img">
@@ -44,7 +44,7 @@ const TiposdDisc = () => {
                     <h2 className="title-page">Intelectual</h2>
                     <p className="parrafo__discapacidad">Son personas que les cuesta más trabajo entender y aprender. A veces les cuesta más trabajo comunicarse.</p>
                     <div className="centrar__img">
-                    <img class="enfoque__imagen" src="/img/articulos/tiposdDisc/Intelectual.jpg" alt='articulo1' />
+                    <img class="enfoque__imagen" src="/img/articulos/tiposdDisc/intelectual.jpg" alt='intelectual'/>
                     </div>
                 </article>
 
@@ -55,7 +55,7 @@ const TiposdDisc = () => {
                         Les molesta que las cosas no estén ordenadas.
                         Les cuesta trabajo saber cómo se sienten las personas.</p>
                         <div className="centrar__img">
-                    <img class="enfoque__imagen" src="/img/articulos/tiposdDisc/Neurodiversa.jpg" alt='articulo1' />
+                    <img class="enfoque__imagen" src="/img/articulos/tiposdDisc/neurodiversa.jpg" alt='neurodiversa' />
                     </div>
                 </article>
             </div>
