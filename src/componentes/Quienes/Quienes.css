@@ -39,6 +39,10 @@
     border-radius: 100%;    
 }
 
+.persona__nombre::first-letter{
+    text-transform: uppercase;
+}
+
 .persona__imagen--martin{
     background-image: url(/public/img/personas/martin.jpg);
 }
