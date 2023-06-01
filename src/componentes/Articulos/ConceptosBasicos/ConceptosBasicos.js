@@ -13,7 +13,7 @@ const ConceptosBasicos = () => {
             personas con discapacidad, “inclusión” tiene una connotación positiva, mientras que “integración” tiene una
             connotación negativa. Por lo tanto, los términos no son intercambiables.</p>
           <div className="centrar__img">
-            <img class="articulo__imagen" src="/img/articulos/ConceptosBasicos/conceptosBasicos.jpg" alt='Conceptos Básicos' />
+            <img class="articulo__imagen" src="/img/articulos/ConceptosBasicos/conceptosbasicos.jpg" alt='Conceptos Básicos' />
           </div>
         </article>
 
