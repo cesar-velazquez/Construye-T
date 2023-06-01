@@ -9,28 +9,28 @@ const Quienes = () => {
         <div class="personas">
                 <div class="persona">
                     <div class="persona__imagen persona__imagen--martin"></div>
-                    <span class="persona__nombre">Martín</span>
+                    <span class="persona__nombre">martín</span>
                     <span class="persona__funcion">Estudiante de la Universidad Veracruzana</span>
                 </div>
                 <div class="persona">
                     <div class="persona__imagen persona__imagen--yesua"></div>
-                    <span class="persona__nombre">Yesua</span>
+                    <span class="persona__nombre">yesua</span>
                     <span class="persona__funcion">Estudiante de la Universidad Veracruzana</span>
                 </div>
                 <div class="persona">
                     <div class="persona__imagen persona__imagen--janet"></div>
-                    <span class="persona__nombre">Ana Janet</span>
+                    <span class="persona__nombre">janet</span>
                     <span class="persona__funcion">Estudiante de la Universidad Veracruzana</span>
                 </div>
                 <div class="persona">
                     <div class="persona__imagen persona__imagen--fatima"></div>
-                    <span class="persona__nombre">Fátima</span>
+                    <span class="persona__nombre">fátima</span>
                     <span class="persona__funcion">Estudiante de la Universidad Veracruzana</span>
                 </div>
 
                 <div class="persona">
                     <div class="persona__imagen persona__imagen--axel"></div>
-                    <span class="persona__nombre">Axel Rafael</span>
+                    <span class="persona__nombre">axel</span>
                     <span class="persona__funcion">Estudiante de la Universidad Veracruzana</span>
                 </div>
 
